@@ -1,0 +1,26 @@
+.clients {
+  &__title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__item {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color $transition;
+
+    &:hover {
+      border-color: $accent;
+    }
+  }
+}

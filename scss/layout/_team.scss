@@ -1,0 +1,30 @@
+.team {
+  background-color: $light-gray;
+
+  &__title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+}
+
+.team-card {
+  background-color: $white;
+  text-align: center;
+  padding-bottom: 30px;
+
+  &__name {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+
+  &__role {
+    color: $gray;
+    margin-bottom: 16px;
+  }
+}

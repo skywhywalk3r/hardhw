@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WebStudio</title>
+  <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body>
+
+<header class="header">
+  <div class="container header__container">
+    <a href="index.html" class="logo header__logo">
+      <span class="logo__accent">Web</span>Studio
+    </a>
+
+    <nav class="nav header__nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="index.html" class="nav__link nav__link--active">Студія</a>
+        </li>
+        <li class="nav__item">
+          <a href="portfolio.html" class="nav__link">Портфоліо</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Контакти</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="contacts header__contacts">
+      <a href="mailto:info@devstudio.com" class="contacts__link">info@devstudio.com</a>
+      <a href="tel:+380961111111" class="contacts__link">+38 096 111 11 11</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container hero__container">
+      <h1 class="hero__title">
+        ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ
+      </h1>
+      <a href="#modal" class="button button--primary hero__button">
+        Замовити послугу
+      </a>
+    </div>
+  </section>
+
+  <section class="work">
+    <div class="container">
+      <h2 class="work__title">Чим ми займаємося</h2>
+
+      <div class="work__gallery">
+        <div class="work__item">
+          <img src="./images/programer work.webp" alt="Десктопні додатки" />
+          <p class="work__label">ДЕСКТОПНІ ДОДАТКИ</p>
+        </div>
+
+        <div class="work__item">
+          <img src="./images/designers.webp" alt="Мобільні додатки" />
+          <p class="work__label">МОБІЛЬНІ ДОДАТКИ</p>
+        </div>
+
+        <div class="work__item">
+          <img src="./images/webdesign.webp" alt="Дизайнерські рішення" />
+          <p class="work__label">ДИЗАЙНЕРСЬКІ РІШЕННЯ</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team">
+    <div class="container">
+      <h2 class="team__title">Наша команда</h2>
+
+      <div class="team__list">
+
+        <article class="team-card team__card">
+          <img src="./images/igor.webp" alt="Ігор Дем'яненко" class="team-card__image" />
+          <h3 class="team-card__name">Ігор Дем'яненко</h3>
+          <p class="team-card__role">Product Designer</p>
+
+          <div class="socials team-card__socials">
+            <a href="#" class="socials__link">Instagram</a>
+            <a href="#" class="socials__link">Twitter</a>
+            <a href="#" class="socials__link">Facebook</a>
+            <a href="#" class="socials__link">LinkedIn</a>
+          </div>
+        </article>
+
+        <article class="team-card team__card">
+          <img src="./images/olha.webp" alt="Ольга Рєпіна" class="team-card__image" />
+          <h3 class="team-card__name">Ольга Рєпіна</h3>
+          <p class="team-card__role">Frontend Developer</p>
+
+          <div class="socials team-card__socials">
+            <a href="#" class="socials__link">Instagram</a>
+            <a href="#" class="socials__link">Twitter</a>
+            <a href="#" class="socials__link">Facebook</a>
+            <a href="#" class="socials__link">LinkedIn</a>
+          </div>
+        </article>
+
+        <article class="team-card team__card">
+          <img src="./images/mikola.webp" alt="Микола Тарасов" class="team-card__image" />
+          <h3 class="team-card__name">Микола Тарасов</h3>
+          <p class="team-card__role">Marketing</p>
+
+          <div class="socials team-card__socials">
+            <a href="#" class="socials__link">Instagram</a>
+            <a href="#" class="socials__link">Twitter</a>
+            <a href="#" class="socials__link">Facebook</a>
+            <a href="#" class="socials__link">LinkedIn</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="clients">
+    <div class="container">
+      <h2 class="clients__title">Постійні клієнти</h2>
+
+      <div class="clients__list">
+        <div class="clients__item"><img src="./images/YA&CO.webp" alt="YA&CO" /></div>
+        <div class="clients__item clients__item--active"><img src="./images/Companytagline.webp" alt="CompanyTagline" /></div>
+        <div class="clients__item"><img src="./images/Company.webp" alt="Company" /></div>
+        <div class="clients__item clients__item--accent"><img src="./images/FosterPeters.webp" alt="Foster Peters" /></div>
+        <div class="clients__item"><img src="./images/Brand.webp" alt="Brand" /></div>
+        <div class="clients__item"><img src="./images/CompanyTag.webp" alt="CompanyTag" /></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__info">
+      <a href="#" class="logo footer__logo">
+        <span class="logo__accent">Web</span>Studio
+      </a>
+      <p class="footer__address">м. Київ, пр-т Лесі Українки, 26</p>
+      <a href="mailto:info@devstudio.com" class="footer__contact">info@devstudio.com</a>
+      <a href="tel:+380961111111" class="footer__contact">+38 096 111 11 11</a>
+    </div>
+
+    <div class="footer__subscribe">
+      <h4 class="footer__title">Підпишіться на розсилку</h4>
+
+      <form class="subscribe">
+        <input type="email" class="subscribe__input" placeholder="E-mail" required />
+        <button type="submit" class="button button--secondary subscribe__button">
+          Підписатися
+        </button>
+      </form>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 32px;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color $transition;
+
+  &--primary {
+    background-color: $accent;
+    color: $white;
+
+    &:hover {
+      background-color: darken($accent, 8%);
+    }
+  }
+
+  &--secondary {
+    background-color: $accent;
+    color: $white;
+  }
+}

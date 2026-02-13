@@ -1,0 +1,10 @@
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  color: $dark;
+
+  &__accent {
+    color: $accent;
+  }
+}

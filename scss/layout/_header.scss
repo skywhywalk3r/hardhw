@@ -1,0 +1,28 @@
+.header {
+  border-bottom: 1px solid #ececec;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    height: 80px;
+  }
+
+  &__nav {
+    margin-left: 90px;
+  }
+
+  &__contacts {
+    margin-left: auto;
+    display: flex;
+    gap: 30px;
+  }
+}
+
+.contacts__link {
+  color: $gray;
+  text-decoration: none;
+
+  &:hover {
+    color: $accent;
+  }
+}

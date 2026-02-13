@@ -1,0 +1,29 @@
+.footer {
+  background-color: $footer-bg;
+  color: $white;
+  padding: 60px 0;
+
+  &__container {
+    display: flex;
+    gap: 70px;
+  }
+
+  &__contact {
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 9px;
+  }
+}
+
+.subscribe {
+  display: flex;
+  gap: 12px;
+
+  &__input {
+    padding: 15px;
+    width: 358px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: $white;
+  }
+}
