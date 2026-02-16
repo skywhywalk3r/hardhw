@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
   background-color: #ffffff;
 }
 
@@ -76,13 +75,34 @@ section {
 }
 
 .hero {
-  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.webp") center/cover no-repeat;
-  text-align: center;
+  position: relative;
   padding: 200px 0;
+  text-align: center;
+  background-color: #2f303a;
+  overflow: hidden;
+}
+.hero__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 0;
+}
+.hero__container {
+  position: relative;
+  z-index: 1;
 }
 .hero__title {
+  font-weight: 900;
   font-size: 44px;
-  max-width: 700px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  max-width: 696px;
   margin: 0 auto 30px;
 }
 
@@ -111,7 +131,6 @@ section {
 
 .team {
   background-color: #f5f4fa;
-  
 }
 .team__title {
   text-align: center;
@@ -121,18 +140,16 @@ section {
 .team__list {
   display: flex;
   gap: 30px;
-  
 }
 
 .team-card {
   background-color: #ffffff;
   text-align: center;
   padding-bottom: 30px;
-  
-}
-.team-card__name {
-  margin-top: 30px;
-  font-size: 16px;
+  width: 120px;
+  height: 120px .team-card __name;
+  height-margin-top: 30px;
+  height-font-size: 16px;
 }
 .team-card__role {
   color: #757575;
@@ -186,4 +203,4 @@ section {
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: #ffffff;
-}
+}/*# sourceMappingURL=main.css.map */

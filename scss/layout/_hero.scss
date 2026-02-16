@@ -1,16 +1,33 @@
 .hero {
-  background: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("../images/hero.webp") center / cover no-repeat;
+	position: relative;
+	padding: 200px 0;
+	text-align: center;
+	background-color: #2f303a;
+	overflow: hidden;
 
-  text-align: center;
-  padding: 200px 0;
+	&__image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		z-index: 0;
+	}
 
-  &__title {
-    font-size: 44px;
-    max-width: 700px;
-    margin: 0 auto 30px;
-  }
+	&__container {
+		position: relative;
+		z-index: 1;
+	}
+
+	&__title {
+		font-weight: 900;
+		font-size: 44px;
+		line-height: 1.36;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: #ffffff;
+		max-width: 696px;
+		margin: 0 auto 30px;
+	}
 }
